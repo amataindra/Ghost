@@ -8,7 +8,7 @@ module.exports = class MailgunClient {
     #config;
     #settings;
 
-    static DEFAULT_BATCH_SIZE = 1000;
+    static DEFAULT_BATCH_SIZE = 10;
 
     constructor({config, settings}) {
         this.#config = config;
